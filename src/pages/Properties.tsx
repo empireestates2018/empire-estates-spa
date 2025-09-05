@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import './Properties.css';
-import houseImage from '../assets/house.jpeg';
+
+// Import property images so that the bundler (e.g., Webpack/Vite) correctly processes them
+import houseImg from '../utils/house.jpeg';
+
+// If you have multiple different images, import them here (e.g., houseImg2, houseImg3, ...)
+// For now, we will reuse the same image for demonstration purposes.
+const propertyImages = [houseImg, houseImg, houseImg, houseImg];
 
 interface Property {
   id: number;
@@ -22,46 +28,46 @@ const Properties: React.FC = () => {
   const properties: Property[] = [
     {
       id: 1,
-      title: 'Luxury house',
-      location: 'kurnool.andhra pradesh,India',
+      title: 'Modern Luxury Villa',
+      location: 'Kurnool, Andhra Pradesh, India',
       price: '₹85,00,000',
-      bedrooms: 2,
+      bedrooms: 3,
       bathrooms: 2,
-      sqft: 1554.372,
-      type: 'house',
+      sqft: 1850,
+      type: 'villa',
       status: 'For Sale',
       featured: true,
     },
     {
       id: 2,
-      title: 'Luxury house',
-      location: 'kurnool.andhra pradesh,India',
-      price: '85,00,000',
+      title: 'Contemporary House',
+      location: 'Kurnool, Andhra Pradesh, India',
+      price: '₹72,00,000',
       bedrooms: 2,
       bathrooms: 2,
-      sqft: 1554.372,
+      sqft: 1554,
       type: 'house',
       status: 'For Sale',
     },
     {
       id: 3,
-      title:'Luxury house',
-      location: 'kurnool.andhra pradesh,India',
-      price: '₹85,00,000',
-      bedrooms: 2,
-      bathrooms: 2,
-      sqft: 1554.372,
-      type: 'house',
+      title: 'Luxury Penthouse',
+      location: 'Kurnool, Andhra Pradesh, India',
+      price: '₹95,00,000',
+      bedrooms: 4,
+      bathrooms: 3,
+      sqft: 2200,
+      type: 'penthouse',
       status: 'For Sale',
     },
     {
       id: 4,
-      title: 'Luxury house',
-      location: 'kurnool.andhra pradesh,India',
-      price: '₹85,00,000',
-      bedrooms: 2,
+      title: 'Modern Family Home',
+      location: 'Kurnool, Andhra Pradesh, India',
+      price: '₹68,00,000',
+      bedrooms: 3,
       bathrooms: 2,
-      sqft: 1554.372,
+      sqft: 1750,
       type: 'house',
       status: 'For Sale',
     },
@@ -81,9 +87,9 @@ const Properties: React.FC = () => {
     : properties.filter(property => property.type === activeFilter);
 
   const toggleFavorite = (propertyId: number) => {
-    setFavorites(prev => 
+    setFavorites((prev: number[]) => 
       prev.includes(propertyId)
-        ? prev.filter(id => id !== propertyId)
+        ? prev.filter((id: number) => id !== propertyId)
         : [...prev, propertyId]
     );
   };
@@ -124,7 +130,7 @@ const Properties: React.FC = () => {
             >
               <div className="property-image">
                 <img 
-                  src={houseImage} 
+                  src={propertyImages[index % propertyImages.length]} 
                   alt={property.title}
                   className="property-img"
                 />

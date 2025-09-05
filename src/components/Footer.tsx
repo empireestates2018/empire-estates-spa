@@ -20,10 +20,10 @@ const Footer: React.FC = () => {
             <h3>Empire Estates</h3>
             <p>Your premier destination for luxury real estate. We specialize in high-end properties in the most exclusive locations.</p>
             <div className="footer-social">
-              <a href="#" className="social-link" aria-label="Facebook">📘</a>
-              <a href="#" className="social-link" aria-label="Twitter">🐦</a>
-              <a href="#" className="social-link" aria-label="Instagram">📷</a>
-              <a href="#" className="social-link" aria-label="LinkedIn">💼</a>
+              <a href="https://facebook.com" className="social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer">📘</a>
+              <a href="https://twitter.com" className="social-link" aria-label="Twitter" target="_blank" rel="noopener noreferrer">🐦</a>
+              <a href="https://instagram.com/empire_estates_2019" className="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">📷</a>
+              <a href="https://linkedin.com" className="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">💼</a>
             </div>
           </div>
           
@@ -69,9 +69,9 @@ const Footer: React.FC = () => {
         <div className="footer-bottom">
           <p>&copy; 2024 Empire Estates. All rights reserved.</p>
           <div className="footer-bottom-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-            <a href="#">Cookie Policy</a>
+            <a href="/privacy">Privacy Policy</a>
+            <a href="/terms">Terms of Service</a>
+            <a href="/cookies">Cookie Policy</a>
           </div>
         </div>
       </div>
