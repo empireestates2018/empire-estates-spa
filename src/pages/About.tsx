@@ -11,7 +11,7 @@ const About: React.FC = () => {
           <div className="about-text">
             <h2>Our Story</h2>
             <p>
-              Founded in 2010, Empire Estates has been at the forefront of luxury real estate,
+              Founded in 2018, Empire Estates has been at the forefront of luxury real estate,
               connecting discerning clients with extraordinary properties. Our commitment to
               excellence and personalized service has made us a trusted name in premium real estate.
             </p>
