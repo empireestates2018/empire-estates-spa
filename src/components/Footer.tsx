@@ -66,9 +66,9 @@ const Footer: React.FC = () => {
         <div className="footer-bottom">
           <p>&copy; 2024 Empire Estates. All rights reserved.</p>
           <div className="footer-bottom-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-            <a href="#">Cookie Policy</a>
+            <a href="/privacy">Privacy Policy</a>
+            <a href="/terms">Terms of Service</a>
+            <a href="/cookies">Cookie Policy</a>
           </div>
         </div>
       </div>
