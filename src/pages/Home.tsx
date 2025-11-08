@@ -14,7 +14,7 @@ const Home: React.FC = () => {
               Discover luxury properties in the most prestigious locations. 
               Where dreams meet reality in the world of premium real estate.
             </p>
-            <div className="hero-buttons">
+            <div className="cta-buttons">
               <Link to="/properties" className="btn btn-primary">
                 🏡 View Properties
               </Link>
@@ -93,7 +93,7 @@ const Home: React.FC = () => {
               <Link to="/properties" className="btn btn-primary">
                 🔍 Browse Properties
               </Link>
-              <Link to="/contact" className="btn btn-glass">
+              <Link to="/contact" className="btn btn-secondary">
                 💬 Get in Touch
               </Link>
             </div>
