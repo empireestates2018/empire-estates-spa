@@ -51,7 +51,7 @@ const Properties: React.FC = () => {
     },
     {
       id: 3,
-      title: 'Modern house',
+      title: 'Modern House',
       location: 'Kurnool, Andhra Pradesh, India',
       price: '₹85,00,000',
       bedrooms: 2,
@@ -75,6 +75,7 @@ const Properties: React.FC = () => {
 
   const filterOptions = [
     { value: 'all', label: 'All Properties'},
+    { value: 'house', label: 'Houses'}
   ]; 
 
   const filteredProperties = activeFilter === 'all' 
