@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
             <h3>Empire Estates</h3>
             <p>Your premier destination for luxury real estate. We specialize in high-end properties in the most exclusive locations.</p>
             <div className="footer-social">
-             <a href="#" className="social-link" aria-label="Instagram">📷</a>
+             <a href="https://www.instagram.com/empire_estates_2019" className="social-link" aria-label="Instagram">📷</a>
               </div>
           </div>
           
