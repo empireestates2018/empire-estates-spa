@@ -74,13 +74,8 @@ const Properties: React.FC = () => {
   ];
 
   const filterOptions = [
-    { value: 'all', label: 'All Properties' },
-    { value: 'villa', label: 'Villas' },
-    { value: 'penthouse', label: 'Penthouses' },
-    { value: 'condo', label: 'Condos' },
-    { value: 'apartment', label: 'Apartments' },
-    { value: 'house', label: 'Houses' },
-  ];
+    { value: 'all', label: 'All Properties,}
+  ]; 
 
   const filteredProperties = activeFilter === 'all' 
     ? properties 

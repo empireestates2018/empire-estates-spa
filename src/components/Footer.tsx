@@ -20,11 +20,8 @@ const Footer: React.FC = () => {
             <h3>Empire Estates</h3>
             <p>Your premier destination for luxury real estate. We specialize in high-end properties in the most exclusive locations.</p>
             <div className="footer-social">
-              <a href="https://facebook.com" className="social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer">📘</a>
-              <a href="https://twitter.com" className="social-link" aria-label="Twitter" target="_blank" rel="noopener noreferrer">🐦</a>
-              <a href="https://instagram.com/empire_estates_2019" className="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">📷</a>
-              <a href="https://linkedin.com" className="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">💼</a>
-            </div>
+             <a href="#" className="social-link" aria-label="Instagram">📷</a>
+              </div>
           </div>
           
           <div className="footer-section">
@@ -39,9 +36,9 @@ const Footer: React.FC = () => {
           
           <div className="footer-section">
             <h4>Contact Info</h4>
-            <p>📧 info@empireestates.com</p>
-            <p>📱 (555) 123-4567</p>
-            <p>📍 123 Luxury Ave, Premium City, PC 12345</p>
+            <p>📧 empireestates2018@gmail.com</p>
+            <p>📱 +91 9553307874</p>
+            <p>📍 auto nagar. near vishnu township,PC 518003 ,KURNOOL,AP,</p>
             <p>🕒 Mon-Fri: 9AM-6PM, Sat: 10AM-4PM</p>
           </div>
           
