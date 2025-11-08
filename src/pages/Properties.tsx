@@ -80,7 +80,7 @@ const Properties: React.FC = () => {
 
   const filteredProperties = activeFilter === 'all' 
     ? properties 
-    : properties.filter(property => property.type === activeFilter);
+    : properties.filter(property => property.type.tolowercase() === activeFilter.tolowercase());
 
   const toggleFavorite = (propertyId: number) => {
     setFavorites((prev: number[]) => 
