@@ -36,15 +36,15 @@ const Contact: React.FC = () => {
             <div className="contact-details">
               <div className="contact-item">
                 <h3>Phone</h3>
-                <p>(555) 123-4567</p>
+                <p>+91 9553307874</p>
               </div>
               <div className="contact-item">
                 <h3>Email</h3>
-                <p>info@empireestates.com</p>
+                <p>empireestates2018@gmail.com</p>
               </div>
               <div className="contact-item">
                 <h3>Office</h3>
-                <p>123 Luxury Ave<br />New York, NY 10001</p>
+                <p>Near Auto nagar,vishnu township,kurnool,AP</p>
               </div>
               <div className="contact-item">
                 <h3>Hours</h3>
