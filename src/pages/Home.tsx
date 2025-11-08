@@ -9,7 +9,7 @@ const Home: React.FC = () => {
       <section className="hero">
         <div className="container">
           <div className="hero-content">
-            <h1>Welcome to Empire Estates</h1>
+            <h1>Welcome to EMPIRE ESTATES</h1>
             <p className="hero-subtitle">
               Discover luxury properties in the most prestigious locations. 
               Where dreams meet reality in the world of premium real estate.
